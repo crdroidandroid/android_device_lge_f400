@@ -25,7 +25,7 @@ BOARD_CUSTOM_BT_CONFIG := device/lge/f400/bluetooth/vnd_g3.txt
 BOARD_HAVE_BLUETOOTH_BCM := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_f400_defconfig
+TARGET_KERNEL_CONFIG := crdroid_f400_defconfig
 TARGET_REQUIRES_BUMP := true
 
 # Partitions
