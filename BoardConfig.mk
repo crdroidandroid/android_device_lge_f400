@@ -28,6 +28,9 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 TARGET_KERNEL_CONFIG := lineageos_f400_defconfig
 TARGET_REQUIRES_BUMP := true
 
+# HIDL
+DEVICE_MANIFEST_FILE += device/lge/f400/configs/manifest.xml
+
 # NFC
 BOARD_NFC_CHIPSET := pn547
 BOARD_NFC_HAL_SUFFIX := msm8974
